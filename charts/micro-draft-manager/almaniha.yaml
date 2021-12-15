@@ -1,0 +1,11 @@
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+  hosts:
+    - host: micro-drafts-generator.abdollahpour.com
+  tls:
+    - secretName: micro-drafts-generator
+      hosts:
+        - micro-drafts-generator.abdollahpour.com
