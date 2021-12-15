@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  micro-draft-manager:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-12-15T20:37:50.665154054Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.6
+    description: A Helm chart for micro-pdf-manager
+    digest: 8af6d351984ebdeae5908be88292944a3b6e17a93c0993fb363340e7461e7101
+    name: micro-draft-manager
+    type: application
+    urls:
+    - https://github.com/abdollahpour/helm-charts/releases/download/micro-draft-manager-0.1.0/micro-draft-manager-0.1.0.tgz
+    version: 0.1.0
   micro-image-manager:
   - apiVersion: v2
     appVersion: 1.0.0
